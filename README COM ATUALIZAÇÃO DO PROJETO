@@ -1,0 +1,19 @@
+Código do desafio de xadrez (C)
+
+## Tema
+Movimentação de peças de xadrez.
+
+## Descrição
+Programa em **C** que simula o movimento das peças **Torre**, **Bispo** e **Rainha**, usando três estruturas de repetição diferentes (`for`, `while` e `do...while`).  
+A cada caso percorrido, o programa imprime a direção no console.
+
+## Estruturas utilizadas
+- **for** → movimentos da Torre (linhas e colunas)
+- **while** → movimentos do Bispo (diagonais)
+- **do...while** → movimentos da Rainha (todas as direções possíveis)
+
+## Como compilar e executar
+### Windows (MinGW / GCC)
+```bash
+gcc xadrez.c -o xadrez.exe
+xadrez.exe
